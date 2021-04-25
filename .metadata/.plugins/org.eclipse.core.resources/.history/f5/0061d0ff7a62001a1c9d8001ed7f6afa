@@ -1,0 +1,16 @@
+import java.util.Comparator;
+
+public class JavaLatte {
+
+	public static void main(String[] args) {
+		Latte l = new Latte("java.latte");   
+        System.out.println(l.name);   
+Comparator<Student> studentnameComparator= (s1,s2) -> {
+	return s1.getName().compareTo(s2.getName());
+};
+
+Student s=new Student("1", "Shaswat", 22);
+
+	}
+
+}

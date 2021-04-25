@@ -1,0 +1,13 @@
+import java.util.Comparator;
+
+public class JavaLatte {
+
+	public static void main(String[] args) {
+		Latte l = new Latte("java.latte");   
+        System.out.println(l.name);   
+Comparator<Student> studentIdComparator= (s1,s2) -> {
+	return s1.getId().compareTo(s2.getId());
+};
+	}
+
+}

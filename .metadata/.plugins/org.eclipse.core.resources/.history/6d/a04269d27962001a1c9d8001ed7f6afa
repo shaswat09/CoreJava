@@ -1,0 +1,10 @@
+
+public class JavaLatte {
+
+	public static void main(String[] args) {
+		Latte l = new Latte("java.latte");   
+        System.out.println(l.name);   
+
+	}
+
+}
